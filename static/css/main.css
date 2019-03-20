@@ -38,7 +38,22 @@ img {
 .page-title{
     text-align: center;
 }
-
+.expand-parent{
+    display: flex;
+    resize: none;
+    vertical-align: middle;
+}
+.expand-parent.is-size-5{
+    line-height: 1.65;
+}
+.expand{
+    display: flex;
+    flex-grow: 1;
+    vertical-align: middle;
+}
+.v-middle{
+    vertical-align: middle;
+}
 .footer-margin {
     min-height: 100vh;
     margin: 0 0 150px 0;
