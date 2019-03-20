@@ -32,11 +32,25 @@ img {
     margin-top: -.375em;
     right: 1.125em;
 }
+.page-content{
+    margin-top:1.5rem;
+}
+.page-title{
+    text-align: center;
+}
 
 .footer-margin {
     min-height: 100vh;
     margin: 0 0 150px 0;
 }
+
+
+
+
+
+
+
+
 
 /* media things */
 @media screen and (max-width: 768px) {
