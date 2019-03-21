@@ -46,6 +46,12 @@ img {
 .expand-parent.is-size-5{
     line-height: 1.65;
 }
+.mb{
+    margin-bottom: .5rem
+}
+.mt{
+    margin-top:.5rem;
+}
 .expand{
     display: flex;
     flex-grow: 1;
