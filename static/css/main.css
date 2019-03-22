@@ -60,6 +60,10 @@ img {
 .v-middle{
     vertical-align: middle;
 }
+.facebook-btn{
+    background-color: #3B5998 !important
+}
+
 .footer-margin {
     min-height: 100vh;
     margin: 0 0 150px 0;
