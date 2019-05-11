@@ -5,7 +5,9 @@ img {
 .hero .container p {
     text-shadow: rgba(0,0,0,0.7) 1px 1px 25px;
 }
-
+a:hover{
+    color:#2556a5;
+}
 /* fix dark theme */
 .is-dark {
     background-color: #363636!important;
@@ -60,6 +62,13 @@ img {
 .v-middle{
     vertical-align: middle;
 }
+.hero.has-bg{
+    background-color: #faead3;
+    background-image: url(https://manitoudemolay.org/images/img_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
 .facebook-btn{
     background-color: #3B5998 !important
 }
@@ -68,8 +77,33 @@ img {
     min-height: 100vh;
     margin: 0 0 150px 0;
 }
-
-
+footer strong a{
+    color:#363636 !important;
+}
+footer .b-link{
+    white-space: nowrap;
+    display: block;
+    margin-top:.5rem;
+}
+/* -- btn colors --*/
+.red-btn{
+    background-color: #A53424 !important;
+}
+.red-btn:hover{
+    background-color: #902d1f !important;
+}
+.drk-blue-btn{
+    background-color: #222D45 !important;
+}
+.drk-blue-btn:hover{
+    background-color: #192234 !important;
+}
+.yellow-btn{
+    background-color: #f5cc22 !important;
+}
+.yellow-btn:hover{
+    background-color: #e8c324 !important;
+}
 
 
 
@@ -137,7 +171,7 @@ img {
 }
 
 .footer {
-    background-color: #f9f6f3;
+    background-color: #efefef;
     padding: 2rem 1rem 3.5rem!important;
 }
 
