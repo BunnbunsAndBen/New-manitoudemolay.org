@@ -111,6 +111,19 @@ footer .b-link{
 .shadow-inner{ box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06) }
 .shadow-outline{ box-shadow: 0 0 0 3px rgba(52,144,220,0.5) }
 .shadow-none{ box-shadow: none; }
+/*-- round corners --*/
+.round-xsm{
+    border-radius: 2px;
+}
+.round-sm{
+    border-radius: 5px;
+}
+.round-md{
+    border-radius: 8px;
+}
+.round-lg{
+    border-radius: 12px;
+}
 /*-- hero-img --*/
 .hero-img{
     background-color: antiquewhite;
@@ -121,7 +134,14 @@ footer .b-link{
 }
 /*-- full-area --*/
 .full-area{
-    
+    margin: 2rem 0 0 0;
+    display: block;
+    background-color: aliceblue;
+    min-height: 50px
+}
+.full-area h1{
+    display: block;
+    padding:2rem 0 1rem 0;
 }
 
 
