@@ -87,22 +87,22 @@ footer .b-link{
 }
 /* -- btn colors --*/
 .red-btn{
-    background-color: #A53424 !important;
+    background-color: #b23826 !important;
 }
 .red-btn:hover{
-    background-color: #902d1f !important;
+    background-color: #9f2f20 !important;
 }
 .drk-blue-btn{
-    background-color: #222D45 !important;
+    background-color: #293757 !important;
 }
 .drk-blue-btn:hover{
-    background-color: #192234 !important;
+    background-color: #202d4a !important;
 }
 .yellow-btn{
-    background-color: #f5cc22 !important;
+    background-color: #f7ce26 !important;
 }
 .yellow-btn:hover{
-    background-color: #e8c324 !important;
+    background-color: #f8d647 !important;
 }
 /*-- shadows --*/
 .shadow{ box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10) }
