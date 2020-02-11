@@ -17,15 +17,12 @@ body{
     max-height: 32px;
     margin:16px 0;
 }
-.hero{
-	background: #6aa8ef;
-	background-size: cover;
-	background-position: center center;
-	padding: 1.5rem 8px 4rem 8px;
+.parallax-container {
+    height: 100%;
 }
-.parallax-container .hero{
-    background: transparent;
-    padding: 2.5rem 8px 5rem 8px;
+.main::before {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
 }
 .main.parallax-container .hero{
     background: transparent;
@@ -34,10 +31,6 @@ body{
 .text-shadow{
 	text-shadow: 0 0 8px rgba(32, 33, 36, .42);
 }
-.parallax-container {
-    height: 100%;
-}
-
 
 
 /* Media Stuff */
