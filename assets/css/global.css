@@ -20,10 +20,6 @@ body{
 .parallax-container {
     height: 100%;
 }
-.main::before {
-    background-color: rgba(0, 0, 0, 0.87);
-    color: white;
-}
 .main.parallax-container .hero{
     background: transparent;
     padding: 3rem 8px 6rem 8px;
