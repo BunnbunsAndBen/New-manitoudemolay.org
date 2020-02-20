@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Manitou DeMolay</title>
-
+        
+        <title>About - Manitou DeMolay</title>
+        
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
         <!-- css -->
         <link href="/assets/css/materialize.css" rel="stylesheet">
         <link href="/assets/css/global.css" rel="stylesheet">
-
+        
     </head>
     <body>
-
-		<div class="navbar-fixed">
-			<nav>
-				<div class="nav-wrapper grey darken-4">
-					<a href="/" class="brand-logo"><img class="nav-logo" src="/assets/logos/small.png"></a>
-					<a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-					<ul class="right hide-on-med-and-down">
-						<li class=""><a href="/">Home</a></li>
-						<li class=""><a href="events/">Events</a></li>
-						<li class=""><a href="contact/">Contact</a></li>
-						<li class="active"><a href="about/">About</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-		<ul class="sidenav" id="mobile-menu">
-            <li class="active"><a href="/">Home</a></li>
-			<li class=""><a href="events/">Events</a></li>
-			<li class=""><a href="contact/">Contact</a></li>
-			<li class=""><a href="about/">About</a></li>
-		</ul>
-		
+        
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper grey darken-4">
+                    <a href="/" class="brand-logo">
+                        <img class="nav-logo" src="/assets/logos/small.png">
+                    </a>
+                    <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="">
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="">
+                            <a href="events/">Events</a>
+                        </li>
+                        <li class="">
+                            <a href="contact/">Contact</a>
+                        </li>
+                        <li class="active">
+                            <a href="about/">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-menu">
+            <li class="">
+                <a href="/">Home</a>
+            </li>
+            <li class="">
+                <a href="events/">Events</a>
+            </li>
+            <li class="">
+                <a href="contact/">Contact</a>
+            </li>
+            <li class="active">
+                <a href="about/">About</a>
+            </li>
+        </ul><!-- / navigation -->
+        
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <div>
+                    <div class="login">
+                        <form class="center">
+                            <i class="material-icons" style="font-size: 3rem;margin-bottom: 1rem;">account_circle</i>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="usernameInput" type="text" autofocus>
+                                    <label for="usernameInput">Username</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="passwordInput" type="password">
+                                    <label for="passwordInput">Password</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Login</a>
+            </div>
+        </div><!-- / login-modal -->
+        
         <div class="main parallax-container">
             <div class="parallax">
                 <img style="background-color: rgba(0, 0, 0, 0.95);" src="/assets/images/about.jpg">
@@ -45,83 +95,91 @@
                 <div class="center-align white-text text-shadow">
                     <img class="shadowed" src="/assets/logos/demolay-eblempng.png" style="height: 175px">
                     <div class="subheading">
-                        <h5><i>What is DeMolay?</i></h5>
+                        <h5>
+                            <i>What is DeMolay?</i>
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
         
-		<main class="container" style="min-height: 50vh">
+        <main class="container" style="min-height: 50vh">
             
-			<section style="margin-top: 12px;">
-				<h3><b>DeMolay,</b></h3>
+            <section style="margin-top: 12px;">
+                <h3>
+                    <b>DeMolay,</b>
+                </h3>
                 <div class="flow-text">
                     <p>the premier international youth leadership organization, striving to shape young men into leaders of character.</p>
-
                     <p>By epitomizing timeless values, and accepting the challenge of leadership - both of character and of action - the young men of DeMolay transform themselves into citizens of the highest caliber.</p>
-
                     <p>Each young man takes ownership of his DeMolay experience. From generating ideas, planning events, coordinating logistics, and executing their plans, each DeMolay Chapter is responsible for defining their success. All of this is accomplished under the mentorship of trained Advisors, selected from the local community, enabling each Chapter to be uniquely tailored to support the interests of its members.</p>
-                    
                     <p>DeMolay is an inclusive organization that only asks of young men interested to believe in a higher being.</p>
-
                     <p>A high level of involvement and enthusiasm is far more important for success in DeMolay than any particular skill or ability.</p>
                 </div>
-			</section>
-
-            <section>
+            </section>
             
-                <h4><b>What we do</b></h4>
+            <section>
+                <h4>
+                    <b>What we do</b>
+                </h4>
                 <div class="flow-text">
                     <p>We, as a chapter, help around the community. Such things include doing fundraisers and food drives. Meetings are held every other Wednesday from 6 to 8 PM. Wednesdays when we don't have meetings are game nights.</p>
                 </div>
-                
             </section>
             
             <section>
-            
-                <h4><b>Chapter History</b></h4>
+                <h4>
+                    <b>Chapter History</b>
+                </h4>
                 <div class="flow-text">
                     <p>Our chapter was founded in February of 2017 by Dr. Terry and it's phoenix class.</p>
                 </div>
-                
                 <img alt="Manitou phoenix class 2017" class="rounded box-shadow" src="/assets/images/phoenix-class.jpg">
                 <i>Manitou chapter's phoenix class 2017</i>
-                
             </section>
             
-            
-		</main><!-- / main content -->
+        </main><!-- / main content -->
         
         <br><br><br><br>
         
         <footer class="page-footer grey darken-4">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text"><img src="/assets/logos/main.png" style="max-width: 100%; max-height: 35px" alt="Manitou DeMolay"></h5>
-                <p class="grey-text text-lighten-4">Manitou DeMolay striving to build better young men who will, in turn, become better men. DeMolay chapters provide endless fun and friendships that last a lifetime...</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Useful Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" target="_blank" href="https://fb.com/ManitouDeMolay">Our Facebook Page</a></li>
-                  <li><a class="grey-text text-lighten-3" target="_blank" href="https://indianademolay.org">Indiana DeMolay Website</a></li>
-                  <li><a class="grey-text text-lighten-3" target="_blank" href="https://demolay.org">DeMolay Website</a></li>
-                  <li><a class="grey-text text-lighten-3" target="_blank" href="https://escribe.demolay.org/login">eScribe Login</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
             <div class="container">
-            &copy; 2020 Manitou DeMolay
-            <span class="light-gray-text right">
-                <a class="grey-text text-lighten-4" href="https://bunnbuns.net" target="_blank" title="Website by Ben Border">Ben Border</a>
-            </span>
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">
+                            <img src="/assets/logos/main.png" style="max-width: 100%; max-height: 35px" alt="Manitou DeMolay">
+                        </h5>
+                        <p class="grey-text text-lighten-4">Manitou DeMolay striving to build better young men who will, in turn, become better men. DeMolay chapters provide endless fun and friendships that last a lifetime...</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Useful Links</h5>
+                        <ul>
+                            <li>
+                                <a class="grey-text text-lighten-3" target="_blank" href="https://fb.com/ManitouDeMolay">Our Facebook Page</a>
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3" target="_blank" href="https://indianademolay.org">Indiana DeMolay</a>
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3" target="_blank" href="https://demolay.org">DeMolay International</a>
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3" target="_blank" href="https://escribe.demolay.org/login">eScribe Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    &copy;2020 Manitou DeMolay + <a href="https://bunnbuns.net" style="color: inherit;" target="_blank">Ben Border</a>
+                    <span class="light-gray-text right">
+                        <a class="grey-text text-lighten-3 modal-trigger" href="#login-modal">Login</a>
+                    </span>
+                </div>
+            </div>
         </footer>
-
+        
         <!-- js -->
         <script src="/assets/js/materialize.js"></script>
         <script src="/assets/js/global.js"></script>
