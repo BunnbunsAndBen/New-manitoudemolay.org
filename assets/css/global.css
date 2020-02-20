@@ -27,6 +27,12 @@ body{
 .text-shadow{
 	text-shadow: 0 0 8px rgba(32, 33, 36, .42);
 }
+img{
+    max-width: 100%;
+}
+.rounded{
+    border-radius: 5px;
+}
 
 
 /* Media Stuff */
