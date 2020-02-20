@@ -25,10 +25,10 @@ body{
     padding: 3rem 8px 6rem 8px;
 }
 .text-shadow{
-	text-shadow: 0 0 8px rgba(32, 33, 36, 0.5);
+	text-shadow: 0 0 8px rgba(25, 25, 28, 0.75);
 }
 .box-shadow{
-	box-shadow: 0 0 8px rgba(32, 33, 36, 0.5);
+	box-shadow: 0 0 6px rgba(43, 45, 49, 0.23);
 }
 .shadowed {
   -webkit-filter: drop-shadow(0 0 8px rgba(32, 33, 36, 0.35));
