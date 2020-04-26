@@ -25,7 +25,11 @@ body{
 }
 .parallax-container .hero{
     background: transparent;
-    padding: 3.5rem 8px 4.5rem 8px;
+    padding: 6rem 8px 6rem 8px;
+}
+.parallax-container .hero.withImg{
+    background: transparent;
+    padding: 3.5rem 8px 4rem 8px;
 }
 .parallax-container{
     height: 100%;
