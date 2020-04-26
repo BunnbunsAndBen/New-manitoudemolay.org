@@ -21,11 +21,11 @@ body{
 	background: #6aa8ef;
 	background-size: cover;
 	background-position: center center;
-	padding: 1.5rem 8px 4rem 8px;
+	padding: 2.5rem 8px 4rem 8px;
 }
 .parallax-container .hero{
     background: transparent;
-    padding: 3rem 8px 6rem 8px;
+    padding: 3.5rem 8px 4.5rem 8px;
 }
 .parallax-container{
     height: 100%;
@@ -48,6 +48,9 @@ img{
 }
 .footer-img{
     max-height: 40px;
+}
+.footer-copyright{
+    background-color: #272727!important;
 }
 
 
